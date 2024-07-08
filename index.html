@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pearl Walk</title>
+    <link rel="shortcut icon" href="Image/black.png" type="image/x-icon" />
+
+    <!-- import font links-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- custom css file links -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header component start -->
+    <header>
+      <a href="#" class="logo">
+        <img src="Image/black.png" alt="logo" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icon">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-item-container">
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="Image/S1.jpeg" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">Rs 10,000.00</div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="Image/S2.jpg" alt="" width="100" height="150" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">Rs 10,000.00</div>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="Image/S3.jpeg" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <div class="price">Rs 10,000.00</div>
+          </div>
+        </div>
+        <a href="#" class="btn">Checkout now</a>
+      </div>
+    </header>
+    <!-- Header components end -->
+
+    <!-- Home section start -->
+
+    <section
+      class="section hero"
+      style="background-image: url('Image/hero-banner.png')"
+    >
+      <div class="container">
+        <h2 class="h1 hero-title">
+          New Summer <br />
+          Shoes Collection
+        </h2>
+
+        <p class="hero-text">
+          Competently expedite alternative benefits whereas leading-edge
+          catalysts for change. Globally leverage existing an expanded array of
+          leadership.
+        </p>
+
+        <button class="btn btn-primary" style="margin-left: 70px">
+          <span>Shop Now</span>
+
+          <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </section>
+    <br> <br> <br> <br>
+    <!-- Home section end -->
+
+    <!-- About section start -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>About</span> BrandiT</h1>
+      <div class="row">
+        <div class="image">
+          <img src="Image/ab.png" alt="" />
+        </div>
+
+        <div class="content">
+          <img class="logos" src="Image/2.png" alt="" style="padding-left: 300px; " />
+          <div style="padding-left: 25px; padding-right: 10px;">
+            <p>
+              Welcome to BrandiT, your premier destination for stylish and
+              comfortable footwear. Based in Qatar, we are dedicated to offering a
+              diverse range of high-quality shoes to suit every occasion and
+              preference. Our online store makes it easy to discover the latest
+              trends and timeless classics, all from the comfort of your home. At
+              BrandiT, we believe that every step should be taken with
+              confidence and style. Explore our collection and step into a world
+              of elegance and comfort today.
+            </p>
+            <a href="#"  class="btn">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br> <br> <br> <br>
+    <!-- About section end -->
+
+    <!-- menu section Start -->
+
+    <section class="menu" id="menu">
+      <h1 class="heading"> Our <span>Menu</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="Image/insta-3.jpg" alt="">
+          <h3>Nike Basketball shoes</h3>
+          <div class="price">Rs 12500.00</div>
+          <a href="#" class="btn">add to card</a>
+        </div>
+
+        <div class="box">
+          <img src="Image/insta-6.jpg" alt="">
+          <h3>Nike Basketball shoes</h3>
+          <div class="price">Rs 13500.00</div>
+          <a href="#" class="btn">add to card</a>
+        </div>
+
+        <div class="box">
+          <img src="Image/insta-7.jpg" alt="">
+          <h3>Nike Basketball shoes</h3>
+          <div class="price">Rs 11500.00</div>
+          <a href="Wa.me/97450590085" class="btn">add to card</a>
+        </div>
+        
+      </div>
+    </section>
+    <br> <br> <br> <br>
+    <!-- menu section end -->
+
+    <!-- products section start -->
+    <section class="section product products" id="products">
+      <div class="container">
+        <h1 class="heading"> Our <span>Product</span></h1>
+        <ul class="filter-list">
+          <li>
+            <button class="filter-btn active">All</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">Nike</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">Adidas</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">Puma</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">Bata</button>
+          </li>
+
+          <li>
+            <button class="filter-btn">Apex</button>
+          </li>
+        </ul>
+        <div class="box-container">
+          <div class="box">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Image/product-1.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Running Sneaker Shoes</h3>
+              <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">Rs 14500.00</div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Image/product-2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Leather Mens Slipper</h3>
+              <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">Rs 12500.00</div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Image/product-3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Simple Fabric Shoe</h3>
+              <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">Rs 15500.00</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="box-container">
+          <div class="box">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Image/product-4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Air Jordan 7 Retro</h3>
+              <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">Rs 11100.00</div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Image/product-5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Nike Air Max 270 SE</h3>
+              <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">Rs 4500.00</div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icons">
+              <a href="#" class="fas fa-shopping-cart"></a>
+              <a href="#" class="fas fa-share"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Image/product-6.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Adidas Sneakers Shoes</h3>
+              <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">Rs 1400.00</div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <br> <br> <br> <br>
+    <!-- Products section end -->
+
+    <!-- contact section end -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact</span> us</h1>
+
+      <div class="row">
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d349.7245433378883!2d81.83545265309043!3d7.389537796748845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae53fb96c62b883%3A0x98a8aa3d1eb728b3!2sAalim%20Road%2C%20Sainthamaruthu%2032300!5e0!3m2!1sen!2slk!4v1720196186766!5m2!1sen!2slk" width="600" height="450"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
+        </div>
+
+        <form action="">
+          <h1 class="heading" style="color: #e0e1dd;">Get in touch</h1>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name">
+          </div>
+
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email">
+          </div>
+
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="number">
+          </div>
+          <input class="btns" type="submit" value="contact now">
+        </form>
+      
+      </div>
+    </section>
+    <br> <br> <br> <br>
+    <!-- contact section end -->
+
+    <!-- footer section start -->
+
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-whatsapp"></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#contact">contact</a>
+      </div>
+
+      <div class="credit">created by <span><a href="#">BrandiT</a></span> all rights reserved</div>
+    </section>
+
+    <!-- footer section end -->
+
+    <!-- custom js file link -->
+    <script src="javascript/javascript.js"></script>
+  </body>
+</html>
